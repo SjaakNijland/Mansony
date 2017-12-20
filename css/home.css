@@ -1,0 +1,64 @@
+#video-background {
+    /*  making the video fullscreen  */
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+/* These just style the content */
+article {
+    /*  just a fancy border  */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+
+}
+
+h1 {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    font-size: 36px;
+    letter-spacing: 3px;
+    color: #fff;
+    font-family: Oswald, sans-serif;
+    text-align: center;
+}
+h1 img{
+    margin-bottom: 20px;
+}
+h1 span {
+    font-family: sans-serif;
+    letter-spacing: 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1 span a {
+    font-size: 22px;
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    text-decoration: none;
+}
+h1 span a:hover{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    transition: 0.5s;
+
+}
